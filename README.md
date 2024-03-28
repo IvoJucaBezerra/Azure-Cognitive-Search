@@ -3,7 +3,7 @@ Utilizando AI Search para indexação e consulta de Dados ![]()
 
 DOCUMENTAÇÃO: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html
 
-1. Criar um Serviço de Pesquisa
+Criar um Serviço de Pesquisa
 Acesse o portal do Azure em portal.azure.com.
 Crie um novo recurso e selecione "Pesquisa Cognitiva" ou "Azure Cognitive Search".
 ![criarsearch](https://github.com/IvoJucaBezerra/Azure-Cognitive-Search/blob/main/CRIANDORECURSOS/criar-azure-ai-search.png)
@@ -11,7 +11,7 @@ Escolha um nome único para o serviço e selecione a região mais adequada.
 Escolha o plano de serviço conforme suas necessidades, considerando requisitos de escalabilidade e recursos disponíveis.
 ![preço](https://github.com/IvoJucaBezerra/Azure-Cognitive-Search/blob/main/CRIANDORECURSOS/alterar-tipodepreco.png)
 
-3. Recursos do Azure Necessários
+Recursos do Azure Necessários
 Azure Cognitive Search (plano básico)
 Serviços de IA do Azure (plano padrão S0)
 ![criarcognitivo](https://github.com/IvoJucaBezerra/Azure-Cognitive-Search/blob/main/CRIANDORECURSOS/criarServicoCognitivo.png)
@@ -19,7 +19,7 @@ Serviços de IA do Azure (plano padrão S0)
 ![planobasico](https://github.com/IvoJucaBezerra/Azure-Cognitive-Search/blob/main/CRIANDORECURSOS/escolhaprecoBasico.png)
 
 
-5. Criar Conta de Armazenamento do Azure (LRS)
+Criar Conta de Armazenamento do Azure (LRS)
 Defina o esquema do seu índice, especificando os campos que deseja indexar e pesquisar.
 Escolha os tipos de dados adequados para cada campo, como texto, números, datas, etc.
 Considere a aplicação de técnicas de análise de texto, como tokenização e stemming, para melhorar a precisão da pesquisa.
